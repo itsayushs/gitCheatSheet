@@ -1,0 +1,10 @@
+Basic commands:
+#	git init  				initalize the repo[local]
+#	git add [file_name] 			to add [file_name] to staging area
+#	git add .  				to add all the files to staging area
+#	git status				to check the staging area
+#	git commit [file_name] -m "[msg]" 	to commit a particular file
+#	git commit -m "[msg]"			to commit all the files in the staging area
+#	git log 				to get all the logs or changes ever commited to the repo
+#	git reset --hard [commit_id] 		to rollback to a particular commit 
+			  ^ get this from git log
