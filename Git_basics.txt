@@ -8,3 +8,10 @@ Basic commands:
 #	git log 				to get all the logs or changes ever commited to the repo
 #	git reset --hard [commit_id] 		to rollback to a particular commit 
 			  ^ get this from git log
+Git and Branches:
+#	git branch				to list all the branch
+#	git branch [branch_name]		to create a new local branch
+#	git checkout [branch_name]		to switch to a new branch
+#	git push origin [branch_name]		to push commited changes to a particular branch
+#	git fetch && git checkout [b_name]	to sync and switch branch
+#	git checkout master			to switch back to master
